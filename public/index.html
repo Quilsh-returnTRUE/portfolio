@@ -1,89 +1,146 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/10.12.4/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/10.12.4/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+  <body class="fade-in">
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCurF1Wd6qNraWTqn7yhEn523fnE07rcGo",
+        authDomain: "portfolio-2cd4b.firebaseapp.com",
+        projectId: "portfolio-2cd4b",
+        storageBucket: "portfolio-2cd4b.appspot.com",
+        messagingSenderId: "806049460103",
+        appId: "1:806049460103:web:96c0ec56eb46793a88ed22",
+      };
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
     </script>
+
+    <nav class="navbar">
+      <div class="navbar-context">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <h1 style="text-align: center">John Shallbetter</h1>
+      <div class="lang">
+        <img
+          src="/images/htmllogo (1).png"
+          height="75"
+          alt="html logo"
+          title="HTML"
+        />
+        <img
+          src="/images/c++trans.png"
+          height="75"
+          width="75"
+          alt="language: C++"
+          title="C++"
+        />
+        <img
+          src="/images/pythonlogotrans.png"
+          height="75"
+          alt="python logo"
+          title="Python"
+        />
+        <img
+          src="/images/java.png"
+          height="75"
+          alt="java logo"
+          title="Java Script"
+        />
+      </div>
+      <hr />
+      <br />
+      <img
+        style="float: right; padding: 15px"
+        src="images/gradpicCropped.png"
+        height="300"
+        alt="gradpicCropped"
+        tittle="HighSchool Graduation"
+      />
+
+      <div style="max-width: 33%; padding: 10px; color: white">
+        <h3>About me</h3>
+        <p>
+          I am a 17 year old software engineer going onto my freshman year at
+          the University Of South Alabama, currently getting a major in computer
+          science. At this moment, I am a recuit for the Alabama Army National
+          Gaurd with the hopes of my MOS being 15W, which is UAV piloting.
+        </p>
+        <p>
+          I've been programming for around 3 years, starting off in a HighSchool
+          python and JavaScript class. These classes didn't teach me much about
+          coding but definetly sparked my interest. I would do extra projects at
+          home, outside of the assigned ones. In March of 2024, I left behind
+          higher level languages and started learning lower-level, like c++ and
+          c#. I came to fall in love with c++ and still do code in it every day.
+          I also started working on web applications, like this one, about June
+          of 2024.
+        </p>
+
+        <p>
+          In my freetime I enjoy hunting, shooting guns, hanging out with
+          friends, and swimming. I am also a Muay Thai fighter and with my 8
+          year wrestling background, fell in love with BJJ and competing.
+        </p>
+      </div>
+    </main>
   </body>
+  <footer
+    style="
+      clear: both;
+      padding: 6px;
+      padding-top: 5px;
+      text-align: left;
+      background-color: #606060;
+      border-top: 1px solid #ccc;
+    "
+  >
+    <p>&copy; 2024 John Shallbetter. All rights reserved.</p>
+    <h1>Contact Me</h1>
+    <a
+      href="mailto:johnrshallbetter@gmail.com"
+      style="padding: 20px"
+      taget="_blank"
+    >
+      <img
+        src="images/gmaillogotrans.png"
+        alt="Contact Me"
+        width="50"
+        height="50"
+        title="Send me an email"
+      />
+    </a>
+    <a
+      href="https://www.instagram.com/johnshallbetter?igsh=MXh5M2RueDIwdmlmcw%3D%3D&utm_source=qr"
+      style="padding: 20px"
+      target="_blank"
+    >
+      <img
+        src="images/instalogotrans.png"
+        alt="Contact Me"
+        width="50"
+        height="50"
+        title="Social Media"
+      />
+    </a>
+  </footer>
 </html>
