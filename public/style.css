@@ -186,14 +186,16 @@ navbar a:hover::after {
   background-color: #1c1c1c;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+/*
 .project-details .project-image img {
+  
   display: block;
   margin-left: auto;
   margin-right: 20px;
   width: 66%;
+  
 }
-
+*/
 .left-aligned-image {
   float: left;
   margin-right: 20px;
@@ -205,6 +207,7 @@ navbar a:hover::after {
 .project-details .project-info {
   text-align: center;
   margin-top: 20px;
+  overflow: hidden;
 }
 
 .project-details h2 {
