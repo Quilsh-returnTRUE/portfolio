@@ -231,7 +231,6 @@ navbar a:hover::after {
 .project-info {
   flex: 1;
   text-align: left;
-  margin-top: 0;
 }
 
 .project-details h2 {
