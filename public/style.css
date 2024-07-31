@@ -197,18 +197,23 @@ navbar a:hover::after {
 }
 */
 
-.project-image {
+#project2 .project-image {
+  display: block;
+  width: 100%;
+}
+
+#project1 .project-image {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-
 .middle-aligned-image {
   max-width: 600px;
   width: 66%;
   height: auto;
 }
+
 .left-aligned-image {
   float: left;
   margin-right: 20px;
