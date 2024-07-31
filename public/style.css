@@ -196,12 +196,18 @@ navbar a:hover::after {
   
 }
 */
-.middle-aligned-image {
+
+.project-image {
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
+  width: 100%;
+}
+
+.middle-aligned-image {
   max-width: 600px;
   width: 66%;
+  height: auto;
 }
 .left-aligned-image {
   float: left;
