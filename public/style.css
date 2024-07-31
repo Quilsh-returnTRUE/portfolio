@@ -151,7 +151,7 @@ navbar a:hover::after {
   gap: 20px;
   padding: 20px;
   justify-content: center;
-  background-color: #1c1c1c;
+  background-color: #77528b;
 }
 
 .project-box {
@@ -162,13 +162,13 @@ navbar a:hover::after {
   transition: transform 0.3s ease;
   cursor: pointer;
   text-align: center;
-  background-color: #1c1c1c;
+  background-color: #c50808;
 }
 
 .project-box a {
   text-decoration: none;
   color: inherit;
-  background-color: #1c1c1c;
+  background-color: #f57979;
 }
 
 .project-box img {
@@ -180,7 +180,7 @@ navbar a:hover::after {
 .project-box h3 {
   margin: 10px;
   font-size: 1.2em;
-  background-color: #1c1c1c;
+  background-color: #8c00ff;
 }
 
 .project-details {
@@ -188,7 +188,7 @@ navbar a:hover::after {
   padding: 20px;
   border: 2px solid #ddd;
   border-radius: 8px;
-  background-color: #1c1c1c;
+  background-color: #00b11d;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
