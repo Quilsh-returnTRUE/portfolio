@@ -209,13 +209,7 @@ navbar a:hover::after {
   gap: 20px;
 }
 
-#project2 .project-image {
-  display: block;
-  width: 100%;
-  overflow: hidden;
-}
-
-#project1 .project-image {
+.project-image {
   display: flex;
   justify-content: center;
   align-items: center;
