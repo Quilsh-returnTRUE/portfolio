@@ -197,9 +197,10 @@ navbar a:hover::after {
 }
 */
 .middle-aligned-image {
-  float: center;
-  margin-right: auto;
-  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  max-width: 600px;
   width: 66%;
 }
 .left-aligned-image {
