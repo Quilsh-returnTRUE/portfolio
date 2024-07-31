@@ -28,7 +28,7 @@ contact {
 
 footer {
   bottom: 0;
-  background-color: #333;
+  background-color: #ffd4b0;
   width: 100%;
   height: auto;
 }
@@ -59,7 +59,7 @@ footer {
   top: 0;
   left: 0;
   width: 100%; /* Full width */
-  background-color: #333; /* Dark background color */
+  background-color: #422c2c; /* Dark background color */
   color: #fff; /* White text color */
   padding: 10px 0;
   z-index: 1000; /* Ensures it stays on top of other content */
