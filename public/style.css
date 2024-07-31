@@ -1,6 +1,14 @@
+@font-face {
+  font-family: CaviarDreams;
+  src: url("CaviarDreams_Italic.ttf") format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0px;
   background-color: #1c1c1c;
+  font-family: "CaviarDreams", sans-serif;
 }
 
 main {
