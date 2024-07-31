@@ -185,6 +185,7 @@ navbar a:hover::after {
   border-radius: 8px;
   background-color: #1c1c1c;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 /*
 .project-details .project-image img {
@@ -200,6 +201,7 @@ navbar a:hover::after {
 #project2 .project-image {
   display: block;
   width: 100%;
+  overflow: hidden;
 }
 
 #project1 .project-image {
