@@ -31,6 +31,11 @@ footer {
   background-color: #ffd4b0;
   width: 100%;
   height: auto;
+  clear: both;
+  padding: 6px;
+  padding-top: 5px;
+  text-align: left;
+  border-top: 1px solid #ccc;
 }
 
 .fade-in {
