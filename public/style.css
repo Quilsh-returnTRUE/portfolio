@@ -196,6 +196,12 @@ navbar a:hover::after {
   
 }
 */
+.middle-aligned-image {
+  float: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 66%;
+}
 .left-aligned-image {
   float: left;
   margin-right: 20px;
