@@ -221,6 +221,12 @@ navbar a:hover::after {
   height: auto;
 }
 
+#project2 .middle-aligned-image {
+  width: 50%;
+  max-width: 200px;
+  height: auto;
+}
+
 .left-aligned-image {
   width: 50%;
   max-width: 200px;
