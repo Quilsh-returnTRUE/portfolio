@@ -92,6 +92,18 @@ footer {
   overflow: hidden;
 }
 
+.navbar ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  display: block;
+}
+
 .navbar a {
   color: white;
   text-decoration: none;
