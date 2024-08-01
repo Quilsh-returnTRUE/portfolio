@@ -27,6 +27,7 @@ contact {
 }
 
 .footer {
+  position: absolute;
   bottom: 0;
   background-color: #392841;
   width: 100%;
