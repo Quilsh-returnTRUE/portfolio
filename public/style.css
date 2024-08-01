@@ -26,6 +26,17 @@ contact {
   text-align: center;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered-image {
+  max-width: 100%;
+  height: auto;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
