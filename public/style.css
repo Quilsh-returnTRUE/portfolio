@@ -39,7 +39,7 @@ contact {
 
 .footer {
   bottom: 0;
-  background-color: #392841;
+  background-color: #2b2b2b;
   width: 100%;
   height: auto;
   clear: both;
@@ -73,7 +73,7 @@ contact {
   top: 0;
   left: 0;
   width: 100%; /* Full width */
-  background-color: #c9c9c9; /* Dark background color */
+  background-color: #2b2b2b; /* Dark background color */
   color: #fff; /* White text color */
   padding: 10px 0;
   z-index: 1000; /* Ensures it stays on top of other content */
