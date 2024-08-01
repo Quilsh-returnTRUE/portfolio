@@ -81,16 +81,16 @@ footer {
   width: 100%;
   max-width: 1200px; /* Center the content */
   margin: 0 auto;
-  padding: 10px 0;
 }
 
 .navbar ul {
   list-style-type: none;
   background-color: #392841;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   overflow: hidden;
   border-radius: 10px; /*this is for the roundimg for nav bar */
+  display: flex;
 }
 
 .navbar a {
@@ -143,7 +143,9 @@ footer {
 }
 
 .navbar li {
-  float: left;
+  width: 150%;
+  height: 150%;
+  opacity: 0;
 }
 
 .project-overview {
