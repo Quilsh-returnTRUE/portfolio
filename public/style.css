@@ -81,6 +81,7 @@ footer {
   width: 100%;
   max-width: 1200px; /* Center the content */
   margin: 0 auto;
+  padding: 10px 0;
 }
 
 .navbar ul {
@@ -91,6 +92,11 @@ footer {
   overflow: hidden;
   border-radius: 10px; /*this is for the roundimg for nav bar */
   display: flex;
+}
+
+.navbar li {
+  float: none;
+  margin: 0;
 }
 
 .navbar a {
@@ -137,12 +143,6 @@ footer {
 }
 
 .navbar a:hover::after {
-  width: 150%;
-  height: 150%;
-  opacity: 0;
-}
-
-.navbar li {
   width: 150%;
   height: 150%;
   opacity: 0;
