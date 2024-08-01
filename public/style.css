@@ -46,6 +46,7 @@ contact {
   clear: both;
   text-align: left;
   border-top: 1px solid #ccc;
+  color: white;
 }
 
 .fade-in {
