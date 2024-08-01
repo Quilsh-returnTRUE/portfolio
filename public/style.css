@@ -37,7 +37,7 @@ contact {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: #392841;
   width: 100%;
