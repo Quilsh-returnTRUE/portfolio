@@ -110,7 +110,7 @@ footer {
 }
 
 .navbar a:hover {
-  background-color: rgb(75, 75, 75);
+  background-color: #392841;
 }
 
 .navbar a::before {
