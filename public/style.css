@@ -7,7 +7,7 @@
 
 body {
   margin: 0px;
-  background-color: #090625;
+  background-color: #777777;
   font-family: "CaviarDreams", sans-serif;
 }
 
@@ -96,7 +96,7 @@ contact {
 
 .navbar ul {
   list-style-type: none;
-  background-color: #0d083f;
+  background-color: #777777;
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -120,7 +120,7 @@ contact {
 }
 
 .navbar a:hover {
-  background-color: #5a3d68;
+  background-color: #777777;
 }
 
 .navbar a::before {
@@ -131,7 +131,7 @@ contact {
   transform: translateX(-50%);
   width: 0;
   height: 3px;
-  background: #ff0;
+  background: rgb(35, 26, 46);
   transition: width 0.3s ease;
 }
 
