@@ -90,18 +90,7 @@ footer {
   padding: 0px;
   margin: 0px;
   overflow: hidden;
-}
-
-.navbar ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  padding: 10px 15px;
-  display: block;
+  border-radius: 10px; /*this is for the roundimg for nav bar */
 }
 
 .navbar a {
@@ -130,7 +119,7 @@ nav ul li a {
   transition: width 0.3s ease;
 }
 
-navbar a:hover::before {
+.navbar a:hover::before {
   width: 100%;
 }
 
@@ -147,7 +136,7 @@ navbar a:hover::before {
   transition: width 0.3s ease, height 0.3s ease;
 }
 
-navbar a:hover::after {
+.navbar a:hover::after {
   width: 150%;
   height: 150%;
   opacity: 0;
