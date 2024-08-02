@@ -36,6 +36,7 @@ contact {
   max-width: 30vw;
   text-align: center;
   border-color: #777777;
+  border-radius: 10px;
 }
 
 .centered-image {
