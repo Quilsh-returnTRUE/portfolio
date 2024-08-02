@@ -253,6 +253,12 @@ contact {
   height: auto;
 }
 
+#project3 .middle-aligned-image {
+  width: 50%;
+  max-width: 300px;
+  height: auto;
+}
+
 .left-aligned-image {
   width: 50%;
   max-width: 200px;
